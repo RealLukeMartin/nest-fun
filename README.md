@@ -4,8 +4,8 @@
 ### Install it
 `yarn install`
 
-### Run It
-`yarn start`
+### Dev It
+`yarn start:dev`
 
 It will run on localhost:4000 by default
 
@@ -13,4 +13,12 @@ It will run on localhost:4000 by default
 
 GET /
 
-GET /cats
+GET /items
+
+GET /items/:id
+
+POST /items
+
+PUT /items/:id
+
+DELETE /items/:id
